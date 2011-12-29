@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script> 
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body class="ui-mobile-viewport">
+    <div id="day" "ui-page ui-body-c" data-theme="c" data-role="page" data-url="day" tabindex="0" style="min-height: 373px;">
+      <div class="ui-header ui-bar-c" data-role="header" role="banner">
+        <a class="ui-btn-left jqm-home ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-f" data-direction="reverse" data-iconpos="notext" data-icon="home" href="index.html" title="Home" data-theme="c"><span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true"><span class="ui-btn-text">Home</span><span class="ui-icon ui-icon-home ui-icon-shadow"></span></span></a>
+        <h1 class="ui-title day-header" tabindex="0" role="heading" aria-level="1">Day 11</h1>
+      </div>
+      <div role="main" class="ui-content ui-body-c" data-role="content" data-theme="c">
+        <div class="street-display">
+          <h3>Street Running</h3>
+          <ol>
+            <li>Brisk 5 Minute Warm up Walk</li>
+            <li>Jog 3 Minutes</li>
+            <li>Walk 90 Seconds</li>
+            <li>Jog 5 Minutes</li>
+            <li>Walk 2.5 Minutes</li>
+            <li>Jog 3 Minutes</li>
+            <li>Walk 90 Seconds</li>
+            <li>Jog 5 Minutes</li>
+            <li>Cooldown Walk 5 Minutes</li>
+          </ol>
+        </div>
+        <div class="treadmill-display">
+          <h3>Treadmill Running</h3>
+          <table class="workout-table">
+            <tr>
+              <th>Time</th><th>Action</th>
+            </tr>
+            <tr>
+              <td>00:00-5:00</td><td>Warmup walk</td>
+            </tr>
+            <tr>
+              <td>5:00-8:00</td><td>Run</td>
+            </tr>
+            <tr>
+              <td>8:00-9:30</td><td>Walk</td>
+            </tr>
+            <tr>
+              <td>9:30-14:30</td><td>Run</td>
+            </tr>
+            <tr>
+              <td>14:30-17:00</td><td>Walk</td>
+            </tr>
+            <tr>
+              <td>17:00-20:00</td><td>Run</td>
+            </tr>
+            <tr>
+              <td>20:00-21:30</td><td>Walk</td>
+            </tr>
+            <tr>
+              <td>21:30-26:30</td><td>Run</td>
+            </tr>
+            <tr>
+              <td>26:30-30:00</td><td>Walk</td>
+            </tr>
+          </table>
+        </div>
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup">
+            <input type="checkbox" name="completed" data-day="11" id="completed" class="custom" />
+            <label for="completed">Completed?</label>
+          </fieldset>
+        </div>
+      </div>
+      <div data-role="footer" class="ui-bar">
+        <a href="#" class="street" data-role="button">Street</a>
+        <a href="#" class="treadmill" data-role="button">Treadmill</a>
+      </div>
+    </div>
+  </body>
+</html>
+
