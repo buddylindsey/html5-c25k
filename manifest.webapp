@@ -8,11 +8,6 @@
       "128" : "/128-5krunner.png"
     },
     "launch_path" : "/html5-c25k/index.html",
-    "widget": {
-      "path" : "/html5-c25k/index.html",
-      "width" : 320,
-      "height": 480 
-    },
     "developer": {
       "name" : "Buddy Lindsey",
       "url" : "http://budylindsey.com"
