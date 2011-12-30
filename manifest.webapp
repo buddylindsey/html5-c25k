@@ -7,7 +7,7 @@
       "48" : "/48-5krunner.png",
       "128" : "/128-5krunner.png"
     },
-    launch_path : "/html5-c25k/index.html
+    "launch_path" : "/html5-c25k/index.html",
     "widget": {
       "path" : "/html5-c25k/index.html",
       "width" : 320,
