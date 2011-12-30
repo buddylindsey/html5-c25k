@@ -1,0 +1,24 @@
+{
+    "version" : "1.0",
+    "name" : "Couch to 5k",
+    "description" : "Let you track progress of your Couch to 5k running schedule.",
+    "icons": {
+      "16" : "/16-5krunner.png",
+      "48" : "/48-5krunner.png",
+      "128" : "/128-5krunner.png"
+    },
+    "widget": {
+      "path" : "/index.html",
+      "width" : 320,
+      "height": 480 
+    },
+    "developer": {
+      "name" : "Buddy Lindsey",
+      "url" : "http://budylindsey.com",
+    },
+    "installs_allowed_from": [
+      "https://appstore.mozillalabs.com",
+      "https://apps-preview.mozilla.org"
+      ],
+    "default_locale": "en"
+}

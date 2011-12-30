@@ -36,6 +36,9 @@ function dayStatus(day){
 
 $('#home').live( 'pageinit', function(event){
   reloadIndex();
+  $('.install').click(function(){
+    navigator.mozApps.install() 
+  });
 });
 
 $( '#day' ).live( 'pageinit',function(event){
